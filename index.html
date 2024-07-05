@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #002366;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #002366;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aurall</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#biografia">Biografía</a>
+    <a href="#musica">Música</a>
+    <a href="#videos">Videos</a>
+    <a href="#galeria">Galería</a>
+    <a href="#conciertos">Conciertos</a>
+    <a href="#tienda">Tienda</a>
+    <a href="#blog">Blog</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#redes-sociales">Redes Sociales</a>
+    <a href="#fans">Fans</a>
+    <a href="#press-kit">Press Kit</a>
+</nav>
+
+<section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido a la página oficial de Aurall. Aquí encontrarás las últimas noticias y actualizaciones sobre mi música y eventos.</p>
+    <img src="imagen_destacada.jpg" alt="Aurall" style="width:100%; height:auto;">
+</section>
+
+<section id="biografia">
+    <h2>Biografía</h2>
+    <p>Conoce más sobre Aurall, su historia personal y profesional, sus influencias musicales, logros y premios.</p>
+</section>
+
+<section id="musica">
+    <h2>Música</h2>
+    <p>Escucha mi música en las principales plataformas de streaming y descubre mi discografía completa.</p>
+    <audio controls>
+        <source src="cancion.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+</section>
+
+<section id="videos">
+    <h2>Videos</h2>
+    <p>Explora mis videos musicales, actuaciones en vivo, entrevistas y detrás de cámaras.</p>
+    <video width="100%" controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+    <p>Revisa fotos de mis conciertos, sesiones de fotos y eventos especiales.</p>
+    <img src="foto1.jpg" alt="Concierto 1" style="width:100%; height:auto;">
+    <img src="foto2.jpg" alt="Concierto 2" style="width:100%; height:auto;">
+</section>
+
+<section id="conciertos">
+    <h2>Conciertos</h2>
+    <p>Consulta el calendario de mis próximos conciertos y eventos. Compra tus entradas aquí.</p>
+    <ul>
+        <li>Concierto en Ciudad X - Fecha</li>
+        <li>Concierto en Ciudad Y - Fecha</li>
+    </ul>
+</section>
+
+<section id="tienda">
+    <h2>Tienda</h2>
+    <p>Compra mis álbumes, merchandising y entradas para mis conciertos directamente desde aquí.</p>
+</section>
+
+<section id="blog">
+    <h2>Blog/Noticias</h2>
+    <p>Mantente al día con las últimas noticias y actualizaciones sobre mis proyectos y experiencias.</p>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para consultas, bookings y prensa, utiliza el siguiente formulario de contacto o mis redes sociales.</p>
+    <form action="envio_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<section id="redes-sociales">
+    <h2>Redes Sociales</h2>
+    <p>Sigue a Aurall en las redes sociales:</p>
+    <ul>
+        <li><a href="https://twitter.com/aurall">Twitter</a></li>
+        <li><a href="https://instagram.com/aurall">Instagram</a></li>
+        <li><a href="https://facebook.com/aurall">Facebook</a></li>
+    </ul>
+</section>
+
+<section id="fans">
+    <h2>Fans</h2>
+    <p>Únete al club de fans para obtener contenido exclusivo y suscribirte a nuestro newsletter.</p>
+</section>
+
+<section id="press-kit">
+    <h2>Press Kit</h2>
+    <p>Descarga material de prensa, incluyendo biografía, fotos en alta resolución y más.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Aurall. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
